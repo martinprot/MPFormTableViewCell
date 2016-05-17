@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MPFormTableViewCell_Example' do
+  pod 'MPFormTableViewCell', :path => '../'
+
+  target 'MPFormTableViewCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
