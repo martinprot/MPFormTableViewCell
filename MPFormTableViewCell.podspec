@@ -31,7 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MPFormTableViewCell/Classes/**/*'
-  
+  s.resource_bundles = {
+    'MPFormTableViewCellBundle' => ['MPFormTableViewCell/Classes/**/*.xib']
+  }
+
   # s.resource_bundles = {
   #   'MPFormTableViewCell' => ['MPFormTableViewCell/Assets/*.png']
   # }

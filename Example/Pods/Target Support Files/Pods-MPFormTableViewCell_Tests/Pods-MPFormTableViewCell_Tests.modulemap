@@ -1,0 +1,6 @@
+framework module Pods_MPFormTableViewCell_Tests {
+  umbrella header "Pods-MPFormTableViewCell_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

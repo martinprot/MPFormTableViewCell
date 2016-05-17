@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MPFormRadioTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cym-bs-c3h">
+                        <rect key="frame" x="16" y="0.0" width="130" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="cnf-9r-Ix6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Homme_" image="squared-checkbox">
+                            <color key="titleColor" red="0.63137257099151611" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" red="0.93333333730697632" green="0.93333333730697632" blue="0.93333333730697632" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="selected" image="squared-checkbox-neutral-on">
+                            <color key="titleColor" red="0.35294118523597717" green="0.34509804844856262" blue="0.34117648005485535" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="onLeftRadio:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="GQS-gg-8om"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87Z-aI-R37">
+                        <rect key="frame" x="168" y="0.0" width="130" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="ZWu-Uh-LZm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Femme_" image="squared-checkbox">
+                            <color key="titleColor" red="0.63137257099151611" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" red="0.93333333730697632" green="0.93333333730697632" blue="0.93333333730697632" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="selected" image="squared-checkbox-neutral-on">
+                            <color key="titleColor" red="0.35294118523597717" green="0.34509804844856262" blue="0.34117648005485535" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="onRightRadio:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="C8F-wD-JwK"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="87Z-aI-R37" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="M7Q-QT-UAX"/>
+                    <constraint firstItem="cym-bs-c3h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="WJH-u3-LFf"/>
+                    <constraint firstAttribute="bottom" secondItem="87Z-aI-R37" secondAttribute="bottom" id="bOj-Z3-il3"/>
+                    <constraint firstItem="87Z-aI-R37" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="160" id="cXo-nn-alm"/>
+                    <constraint firstItem="cym-bs-c3h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kIt-HM-QgM"/>
+                    <constraint firstAttribute="bottom" secondItem="cym-bs-c3h" secondAttribute="bottom" id="kYb-QZ-PlT"/>
+                    <constraint firstItem="87Z-aI-R37" firstAttribute="leading" secondItem="cym-bs-c3h" secondAttribute="trailing" constant="-1" id="xaj-lw-Mgb"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="xaj-lw-Mgb"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftChoiceRadioButton" destination="cym-bs-c3h" id="af1-JT-6XG"/>
+                <outlet property="rightChoiceRadioButton" destination="87Z-aI-R37" id="aB5-ct-Gvi"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="squared-checkbox" width="12" height="12"/>
+        <image name="squared-checkbox-neutral-on" width="12" height="12"/>
+    </resources>
+</document>

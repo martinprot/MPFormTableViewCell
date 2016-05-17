@@ -1,0 +1,6 @@
+framework module MPFormTableViewCell {
+  umbrella header "MPFormTableViewCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

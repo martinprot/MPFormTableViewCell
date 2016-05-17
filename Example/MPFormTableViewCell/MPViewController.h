@@ -8,6 +8,9 @@
 
 @import UIKit;
 
-@interface MPViewController : UIViewController
+
+#import "MPFormTableViewCell.h"
+
+@interface MPViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, MPFormTableViewCellDelegate>
 
 @end

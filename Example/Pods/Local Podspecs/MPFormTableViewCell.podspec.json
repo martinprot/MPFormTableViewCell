@@ -1,0 +1,24 @@
+{
+  "name": "MPFormTableViewCell",
+  "version": "0.1.0",
+  "summary": "A short description of MPFormTableViewCell.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MPFormTableViewCell",
+  "license": "MIT",
+  "authors": {
+    "Martin Prot": "martinprot@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MPFormTableViewCell.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MPFormTableViewCell/Classes/**/*",
+  "resource_bundles": {
+    "MPFormTableViewCellBundle": [
+      "MPFormTableViewCell/Classes/**/*.xib"
+    ]
+  }
+}

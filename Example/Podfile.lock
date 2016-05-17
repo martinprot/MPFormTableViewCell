@@ -1,0 +1,16 @@
+PODS:
+  - MPFormTableViewCell (0.1.0)
+
+DEPENDENCIES:
+  - MPFormTableViewCell (from `../`)
+
+EXTERNAL SOURCES:
+  MPFormTableViewCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MPFormTableViewCell: 9d016243d753df2980829069c09cb97ec2dd99fb
+
+PODFILE CHECKSUM: 93465d8e762235c7255f0c56951a3572fd7de77a
+
+COCOAPODS: 1.0.0
