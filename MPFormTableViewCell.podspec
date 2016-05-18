@@ -32,13 +32,10 @@ Switches, SegmentedControls, DatePicker, and so on...
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'MPFormTableViewCell/Classes/**/*'
-  s.resource_bundles = {
-    'MPFormTableViewCellBundle' => ['MPFormTableViewCell/Classes/**/*.xib']
-  }
 
-  # s.resource_bundles = {
-  #   'MPFormTableViewCell' => ['MPFormTableViewCell/Assets/*.png']
-  # }
+  s.resource_bundles = {
+	'MPFormTableViewCell' => ['MPFormTableViewCell/Assets/*.xib']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

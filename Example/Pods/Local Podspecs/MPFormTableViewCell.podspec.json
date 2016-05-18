@@ -1,24 +1,25 @@
 {
   "name": "MPFormTableViewCell",
-  "version": "0.1.0",
-  "summary": "A short description of MPFormTableViewCell.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MPFormTableViewCell",
+  "version": "0.1.1",
+  "summary": "A bundle of UITableViewCells that helps to create settings forms.",
+  "description": "A bundle of UITableViewCells that helps to create settings forms. There are TextField cells, TextViews,\nSwitches, SegmentedControls, DatePicker, and so on...",
+  "homepage": "https://github.com/martinprot/MPFormTableViewCell",
   "license": "MIT",
   "authors": {
     "Martin Prot": "martinprot@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MPFormTableViewCell.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/martinprot/MPFormTableViewCell.git",
+    "tag": "0.1.1"
   },
+  "social_media_url": "https://twitter.com/appricotmedia",
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "MPFormTableViewCell/Classes/**/*",
   "resource_bundles": {
-    "MPFormTableViewCellBundle": [
-      "MPFormTableViewCell/Classes/**/*.xib"
+    "MPFormTableViewCell": [
+      "MPFormTableViewCell/Assets/*.xib"
     ]
   }
 }
