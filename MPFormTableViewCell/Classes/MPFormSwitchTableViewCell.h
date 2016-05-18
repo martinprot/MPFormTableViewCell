@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 DEKIBAE. All rights reserved.
 //
 
-#import "MPFormTableViewCell.h"
+#import "MPFormAbstractTableViewCell.h"
 
-@interface MPFormSwitchTableViewCell : MPFormTableViewCell
+@interface MPFormSwitchTableViewCell : MPFormAbstractTableViewCell
 
 /**
  *  Sets the label.

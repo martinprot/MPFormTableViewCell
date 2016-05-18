@@ -8,10 +8,6 @@
 
 #import "MPViewController.h"
 
-#import "MPFormRadioTableViewCell.h"
-#import "MPFormDateFieldTableViewCell.h"
-#import "MPFormPickerTableViewCell.h"
-
 typedef NS_ENUM(int, MPFormField) {
 	MPFormFieldUnit,
 	MPFormFieldDate,
@@ -28,6 +24,7 @@ static NSString *const kFieldId = @"kFieldId";
 @property (nonatomic, strong) NSArray *formDataSource;
 @property (nonatomic, strong) NSMutableDictionary *resultsDataSource;
 
+@property (nonatomic, strong) NSArray *units;
 @property (nonatomic, strong) NSArray *recurrencies;
 
 @end
@@ -38,23 +35,24 @@ static NSString *const kFieldId = @"kFieldId";
 {
     [super viewDidLoad];
 	
-	NSBundle *bundle = [NSBundle bundleForClass:MPFormTableViewCell.class];
-	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormTextFieldTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormTextFieldTableViewCell];
+	NSBundle *bundle = [NSBundle bundleForClass:MPFormAbstractTableViewCell.class];
+	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormSegmentedTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormSegmentedTableViewCell];
 	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormDateFieldTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormDateFieldTableViewCell];
 	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormPickerTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormPickerTableViewCell];
 
 	
 	self.formDataSource = @[// first section
 							@[// first row
-							  @{kCellId: kMPFormTextFieldTableViewCell, kFieldId: @(MPFormFieldUnit)}
+							  @{kCellId:kMPFormSegmentedTableViewCell, kFieldId: @(MPFormFieldUnit)}
 							 ],
 							// second section
-							@[@{kCellId: kMPFormDateFieldTableViewCell, kFieldId: @(MPFormFieldDate)},
-							  @{kCellId: kMPFormPickerTableViewCell, kFieldId: @(MPFormFieldRecurrency)}
+							@[@{kCellId:kMPFormDateFieldTableViewCell, kFieldId: @(MPFormFieldDate)},
+							  @{kCellId:kMPFormPickerTableViewCell, kFieldId: @(MPFormFieldRecurrency)}
 							 ]
 							];
 	self.resultsDataSource = [@{} mutableCopy];
 	
+	self.units = @[@"kb/s", @"Mb/s", @"ko/s", @"Mo/s"];
 	self.recurrencies = @[NSLocalizedString(@"tous les jours", nil),
 						  NSLocalizedString(@"toutes les semaines", nil),
 						  NSLocalizedString(@"tous les mois", nil)];
@@ -83,15 +81,15 @@ static NSString *const kFieldId = @"kFieldId";
 }
 
 
-- (void)tableView:(UITableView *)tableView willDisplayCell:(MPFormTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView willDisplayCell:(MPFormAbstractTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
 	cell.delegate = self;
 	cell.indexPath = indexPath;
 	
 	MPFormField field = [self.formDataSource[indexPath.section][indexPath.row][kFieldId] intValue];
 	switch (field) {
 		case MPFormFieldUnit: {
-//			MPFormTextFieldTableViewCell *c = (MPFormTextFieldTableViewCell*)cell;
-			
+			MPFormSegmentedTableViewCell *c = (MPFormSegmentedTableViewCell*)cell;
+			c.segmentsArray = self.units;
 			break;
 		}
 		case MPFormFieldDate: {
@@ -105,7 +103,6 @@ static NSString *const kFieldId = @"kFieldId";
 		case MPFormFieldRecurrency: {
 			MPFormPickerTableViewCell *c = (MPFormPickerTableViewCell*)cell;
 			c.localizedItems = self.recurrencies;
-			c.values = @[@0, @1, @2];
 			c.selectedValue = self.resultsDataSource[@(field)];
 			c.textField.placeholder = NSLocalizedString(@"tous les...", nil);
 			break;
@@ -113,9 +110,6 @@ static NSString *const kFieldId = @"kFieldId";
 		default:
 			break;
 	}
-	
-	
-	
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -128,18 +122,19 @@ static NSString *const kFieldId = @"kFieldId";
 	return YES;
 }
 
-- (void)formTableViewCell:(MPFormTableViewCell*)cell didChangeValue:(id)value atIndexPath:(NSIndexPath*)indexPath {
+- (void)formTableViewCell:(__kindof MPFormAbstractTableViewCell*)cell didChangeValue:(id)value atIndexPath:(NSIndexPath*)indexPath {
 	MPFormField field = [self.formDataSource[indexPath.section][indexPath.row][kFieldId] intValue];
 	self.resultsDataSource[@(field)] = value;
+	NSLog(@"%@", value);
 }
 
-- (void)formTableViewCellDidFocus:(MPFormTableViewCell*)cell {
+- (void)formTableViewCellDidFocus:(__kindof MPFormAbstractTableViewCell*)cell {
 }
 
-- (void)formTableViewCellDidReturn:(MPFormTableViewCell*)cell {
+- (void)formTableViewCellDidReturn:(__kindof MPFormAbstractTableViewCell*)cell {
 	NSIndexPath *indexPath = cell.indexPath;
 	if(indexPath.row < [self.tableView numberOfRowsInSection:indexPath.section]-1) {
-		MPFormTableViewCell *cell = (MPFormTableViewCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row +1 inSection:indexPath.section]];
+		MPFormAbstractTableViewCell *cell = (MPFormAbstractTableViewCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row +1 inSection:indexPath.section]];
 		[cell becomeFirstResponder];
 	}
 	else {

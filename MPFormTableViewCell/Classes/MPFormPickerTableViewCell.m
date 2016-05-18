@@ -35,11 +35,20 @@
 - (void)setSelectedValue:(NSNumber*)selectedValue {
 	_selectedValue = selectedValue;
 	
-	NSInteger index = [self.values indexOfObject:selectedValue];
-	if (index != NSNotFound) {
-		[self.pickerView selectRow:index inComponent:0 animated:NO];
-		self.textField.text = self.localizedItems[index];
+	if (self.values) {
+		NSInteger index = [self.values indexOfObject:selectedValue];
+		if (index != NSNotFound) {
+			[self.pickerView selectRow:index inComponent:0 animated:NO];
+			self.textField.text = self.localizedItems[index];
+		}
 	}
+}
+
+- (void)setSelectedIndex:(NSInteger)selectedIndex {
+	_selectedIndex = selectedIndex;
+	
+	[self.pickerView selectRow:selectedIndex inComponent:0 animated:NO];
+	self.textField.text = self.localizedItems[selectedIndex];
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -51,7 +60,9 @@
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
 	[super textFieldShouldBeginEditing:textField];
 	
-	NSAssert(self.values.count == self.localizedItems.count, @"Each items should correspond to a value.");
+	if (self.values) {
+		NSAssert(self.values.count == self.localizedItems.count, @"Each items should correspond to a value.");
+	}
 	
 	return YES;
 }
@@ -86,7 +97,12 @@
 	if (row < self.localizedItems.count) {
 		self.textField.text = self.localizedItems[row];
 	
-		[self.delegate formTableViewCell:self didChangeValue:self.values[row] atIndexPath:self.indexPath];
+		if (self.values) {
+			[self.delegate formTableViewCell:self didChangeValue:self.values[row] atIndexPath:self.indexPath];
+		}
+		else {
+			[self.delegate formTableViewCell:self didChangeValue:@(row) atIndexPath:self.indexPath];
+		}
 	}
 }
 

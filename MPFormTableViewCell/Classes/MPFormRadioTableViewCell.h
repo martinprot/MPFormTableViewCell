@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 DEKIBAE. All rights reserved.
 //
 
-#import "MPFormTableViewCell.h"
+#import "MPFormAbstractTableViewCell.h"
 
 typedef NS_ENUM(NSInteger, MPFormRadioChoice) {
 	MPFormRadioChoiceLeft,
 	MPFormRadioChoiceRight
 };
 
-@interface MPFormRadioTableViewCell : MPFormTableViewCell
+@interface MPFormRadioTableViewCell : MPFormAbstractTableViewCell
 
 
 /**

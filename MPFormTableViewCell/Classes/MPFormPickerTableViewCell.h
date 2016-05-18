@@ -17,6 +17,7 @@
 
 /**
  *  the picker associated item values
+ *  leave it null if the control should return the localizedItem selected index
  */
 @property (nonatomic, strong) NSArray <NSNumber*>*values;
 
@@ -24,5 +25,10 @@
  *  The selected value
  */
 @property (nonatomic, strong) NSNumber *selectedValue;
+
+/**
+ *  The selected index
+ */
+@property (nonatomic) NSInteger selectedIndex;
 
 @end

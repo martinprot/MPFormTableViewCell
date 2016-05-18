@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 DEKIBAE. All rights reserved.
 //
 
-#import "MPFormTableViewCell.h"
+#import "MPFormAbstractTableViewCell.h"
 
 extern NSInteger const kFormTextViewTableViewCellHeight;
 
-@interface MPFormTextFieldTableViewCell : MPFormTableViewCell <UITextFieldDelegate>
+@interface MPFormTextFieldTableViewCell : MPFormAbstractTableViewCell <UITextFieldDelegate>
 
 @property (nonatomic, weak) IBOutlet UITextField *textField;
 

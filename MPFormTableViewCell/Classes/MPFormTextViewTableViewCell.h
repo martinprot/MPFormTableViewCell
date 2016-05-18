@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 DEKIBAE. All rights reserved.
 //
 
-#import "MPFormTableViewCell.h"
+#import "MPFormAbstractTableViewCell.h"
 
-@interface MPFormTextViewTableViewCell : MPFormTableViewCell <UITextViewDelegate>
+@interface MPFormTextViewTableViewCell : MPFormAbstractTableViewCell <UITextViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITextView *textView;
 
