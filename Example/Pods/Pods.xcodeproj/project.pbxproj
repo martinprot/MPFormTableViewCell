@@ -7,124 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		065D4F52E81B69A32337C4B0394221AE /* MPFormDateFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3B501D8AAF6CADF581CB329F51C270 /* MPFormDateFieldTableViewCell.xib */; };
-		116230A7C47E3A719A73662596BC2302 /* MPFormDateFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3156C50114A1348279BD96D4D15C8A4 /* MPFormDateFieldTableViewCell.m */; };
-		15BA0FE9A9FF53BE2FCD046C9465A6BF /* MPFormPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC687BC122B136B18DCA8753C250EEC /* MPFormPickerTableViewCell.xib */; };
-		19DFA0775283CAA917B4E9D5BD772154 /* MPFormSegmentedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1796B404349A30460D345B84A03CE631 /* MPFormSegmentedTableViewCell.m */; };
+		0ECF11DA93A62B7E97C5BEFC5E969A7D /* MPFormDateFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A109039B656F4D1056BC1314F32863 /* MPFormDateFieldTableViewCell.xib */; };
 		1B721BF01AC23D49D179FD7B3A65AA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		20E932D94668174A862EBEDA78563211 /* MPFormRadioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5D741A205DCB1453C17CC377A17F5 /* MPFormRadioTableViewCell.m */; };
-		27E16A04F8340EE7F0EB0346157627D8 /* MPFormTextViewTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1454E3028051CE484EEB13E4C734A /* MPFormTextViewTableViewCell.xib */; };
+		1F1315565B71E08A2CAD79AD868A32A6 /* MPFormTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D2DE5C24B598EA21B7EF7D2DFB495 /* MPFormTextFieldTableViewCell.m */; };
+		2C80395973F13488E2F087EE4203CFFC /* MPFormSegmentedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3002E1874B62311C516370A70D48377F /* MPFormSegmentedTableViewCell.xib */; };
 		3174F62C6A76D111DBFB7689DE747DEC /* Pods-MPFormTableViewCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D11FAE888301860A026E99C95421DB /* Pods-MPFormTableViewCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3245DBB6E69CACE1C006BF28312465B0 /* Pods-MPFormTableViewCell_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3B4A1F96F124BFBCDFB9EA8D41601E /* Pods-MPFormTableViewCell_Tests-dummy.m */; };
-		32DFCD7B33C5447E589683B2CDD81F7E /* MPFormRadioTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA07E3B7111505ACF6255A1DBF208E6 /* MPFormRadioTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39B04D5988E8E431BCA6782C67F1D748 /* MPFormTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A78C9A5832B5B0B218D55749F64B0014 /* MPFormTextViewTableViewCell.m */; };
-		3C0E9A6E4F04946C8F30BE637CA4A340 /* MPFormAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7C960BB2347A971AE34390B075CAC /* MPFormAbstractTableViewCell.m */; };
-		4E91CCCC436FD9294C8C4974B2729E92 /* MPFormTextViewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE55DA68FC821C5AFF4DF41FE8651407 /* MPFormTextViewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558654D42279FAA1A58BA0B4468AA830 /* MPFormDateFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC1FDF5B4BAE66F3A99199A35D28B84 /* MPFormDateFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B71DFABE39FF22744B943DCF707875D /* MPFormTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E952DB26549243EB55081DD2A573FC85 /* MPFormTextFieldTableViewCell.m */; };
-		61B0AE290FF06999434D5261EB56FCAD /* MPFormAbstractTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B084359DD0A6AE6253D72623F2992AB8 /* MPFormAbstractTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E411BDFFB5C3A5268C7D07A4D76875A /* MPFormTextFieldTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD49B043886447F27B99B361294CB3 /* MPFormTextFieldTableViewCell.xib */; };
-		7301B3541CAC34581653339C87F39100 /* MPFormTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD49B043886447F27B99B361294CB3 /* MPFormTextFieldTableViewCell.xib */; };
-		7BDD1BCB6EDB2FA8663A23A78B880A5F /* MPFormSegmentedTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2D8CF58F9B74064E51F1F795558558AE /* MPFormSegmentedTableViewCell.xib */; };
-		804FCCD7705187635DDC90540FD343A2 /* MPFormPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AD299E4180140857A60048B5C5ACAB /* MPFormPickerTableViewCell.m */; };
-		832115C48FD75CFAC8E4601BC3B6597F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		843A3798C9A0DAAA40EDA23EAEE8BD17 /* MPFormTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EE7706A7746F7224AE6FBE61FFDCC4 /* MPFormTableViewCell-dummy.m */; };
-		95626BA7C0989997AF5F0E61D4974CE4 /* MPFormRadioTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = A969D4710AAA41B779B972C2A8F5028B /* MPFormRadioTableViewCell.xib */; };
-		97258E266924C1E5C12499008E63EF12 /* MPFormSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D66C2F7EB897CCD7064852E1A20E87A6 /* MPFormSwitchTableViewCell.m */; };
-		9DAF5BF9A5A7F72D7D4FAE3FD651DADA /* MPFormPickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA8F9D42DDF6BB4F63336880B6288B2 /* MPFormPickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A06BB9B57431454511C4D97A16C8A1E8 /* MPFormDateFieldTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = AF3B501D8AAF6CADF581CB329F51C270 /* MPFormDateFieldTableViewCell.xib */; };
-		A206B0B6EA9222B85941E0C4CFBBADEF /* MPFormSegmentedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D8CF58F9B74064E51F1F795558558AE /* MPFormSegmentedTableViewCell.xib */; };
-		A2BA4473411540321B4FC42C704C62DF /* MPFormSwitchTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = A3136790A2317031AD562F4A5A7A9F73 /* MPFormSwitchTableViewCell.xib */; };
-		AD2A9B2F6BBC3879B6DB9827EB247994 /* MPFormRadioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A969D4710AAA41B779B972C2A8F5028B /* MPFormRadioTableViewCell.xib */; };
-		B6E1A9E81786F389B2B1EFAABE5523D5 /* MPFormSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E6240B60CCD5A5200451B8C78F747DE0 /* MPFormSwitchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7C63060B673911F9E652197D69585A7 /* MPFormPickerTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = AFC687BC122B136B18DCA8753C250EEC /* MPFormPickerTableViewCell.xib */; };
-		B822F224C971EEFDA46F2522DB11D4E9 /* MPFormTableViewCellBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50DEBC0F213C8F8DD976928DCF910B62 /* MPFormTableViewCellBundle.bundle */; };
-		C24AD7B1AA3AF876B02AC3CBEAF35ECE /* MPFormTextFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 88CEBA5B0A226D8F398BB1252FB41A78 /* MPFormTextFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D243C9AAEF694842FB2F07F8909EF5B1 /* MPFormSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3136790A2317031AD562F4A5A7A9F73 /* MPFormSwitchTableViewCell.xib */; };
-		DB6A24534408E4B04A904D85C72DAC72 /* MPFormTextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1454E3028051CE484EEB13E4C734A /* MPFormTextViewTableViewCell.xib */; };
+		3529A12363C6D5CC04E9F55EDFDC59C7 /* MPFormTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CC1DFE2060942EE3F99283EA85832 /* MPFormTableViewCell-dummy.m */; };
+		380929B525A59E5FEC98E55473A5690A /* MPFormAbstractTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AADA9E348EE9F8CE2315C6D1E616F9E4 /* MPFormAbstractTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42EC826F26C34DE085E9584F6F9B864A /* MPFormPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A57F39361F1EF31AEDC3E3CD677B6C /* MPFormPickerTableViewCell.xib */; };
+		4D0CC14C4A1D6068A899BF28C86E78DC /* MPFormTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5F121EC220E46F5443671EE7471CDB /* MPFormTextFieldTableViewCell.xib */; };
+		5A2FB218625868E3ADB1572644265934 /* MPFormPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 579389C495B01A3340DC149020E1A0BD /* MPFormPickerTableViewCell.m */; };
+		65B0CB6DB2AD41D14123FE1CED44FAB5 /* MPFormSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF043B4C17D6D04000467EF56DCA7DD /* MPFormSwitchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF13CA6931ACC82EFDAE272223CBB53 /* MPFormRadioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 862D5E5E52C96726E663C207326744F7 /* MPFormRadioTableViewCell.m */; };
+		6CAAC9375E0B35A88DBF086B7954FE1E /* MPFormPickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C7ABE55150E04820B3B5358B5343AF /* MPFormPickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E181051F1C216B61E9593B20D5A4EAC /* MPFormTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 870E1CF41F51D04109255EA329205D1F /* MPFormTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8372B6BEFBDFAB758FC29FEE2434AB92 /* MPFormSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E7C57E55F7BE5090C6230009A74669 /* MPFormSwitchTableViewCell.xib */; };
+		88A0E7E1CA803634031D0130895A056E /* MPFormTextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BB5D882456EA8DB62E230C92053EB8 /* MPFormTextViewTableViewCell.xib */; };
+		8BAB96853C27E31B5D29F3DD632BBADA /* MPFormSegmentedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 746645A38BA0BF8FDDED2BA4D6DEB6D8 /* MPFormSegmentedTableViewCell.m */; };
+		96CC2B19A237C466A97140FEFC913769 /* MPFormSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189046BB6F4C5CA30925C2F71D7F7F4F /* MPFormSwitchTableViewCell.m */; };
+		B62544D0876ABC4E6416E3CCD967CCAE /* MPFormDateFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBFA92658323F2D234142BC9AF49B7A /* MPFormDateFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A0C78CF0C9FDD9A029F97F635CF6E8 /* MPFormDateFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75473C75BD304378634E554CF9BBE536 /* MPFormDateFieldTableViewCell.m */; };
+		C6DD150F295A5653E2E9FB9803F7CED6 /* MPFormRadioTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB1E5F4222103637CB55F20114D6E9A /* MPFormRadioTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C5ADC5D6BFDDBE0B2E56E9BF5E6A99 /* MPFormRadioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A28065666D2BA9D1E3E5A3C4F79ED62 /* MPFormRadioTableViewCell.xib */; };
+		CD5DB8CFE3543DC84834B65BD35F83D6 /* MPFormTextViewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 27198EA3A1A756DFB2A59CF7523289BD /* MPFormTextViewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0710511BE41646DC4BAF7A753E12C1 /* MPFormTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB4513E8C01D764FD5344CF30E3C6E /* MPFormTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E34FCE21A7B320844ED2F49E3980D6 /* MPFormTextFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE9375A71B767374A66C19147F85D5A /* MPFormTextFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBF4DDA15B356A4A7840CE865C263FB7 /* Pods-MPFormTableViewCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CEFDC412EB265739AB37D4D151EA7 /* Pods-MPFormTableViewCell_Example-dummy.m */; };
-		DEE671AB16A8BF52FBEACE9650B9AD3C /* MPFormTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB00FCF60367B3FB49E941BED38323EF /* MPFormTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2B5D7F021A936767D35C9E4210E609E /* Pods-MPFormTableViewCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DE4BC7298E756BA4C46E1BDE0B5C7B /* Pods-MPFormTableViewCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B704D52E46A8299C47323BD4DCF3EB /* MPFormAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C58F01EE62B527930A0548A3520F24 /* MPFormAbstractTableViewCell.m */; };
 		E4E06A42B6E4247862AFDCBBAD71F89C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		EFF5B595FF50D034BE0786EFDB49722D /* MPFormTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 366047899876395C76DDDC53178210A6 /* MPFormTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F319D4D0DF07225EC6AE0BBC6DF8C7FF /* MPFormSegmentedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BA69D732BEB2D9083D3AC8E478DD035D /* MPFormSegmentedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E621453122DECB3FCCFA4D52E6C3B11B /* MPFormSegmentedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 29ADBC624F0FC9F9D16FFE70411D87C3 /* MPFormSegmentedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9BAF8F066DAC9E9A122A98882120610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F8FD317A29E50B9EF2B0ECF4BFA34264 /* MPFormTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11605CF87A3870CBB591981E239536 /* MPFormTextViewTableViewCell.m */; };
+		F98CCF5EE428F12839BDBDE663DCA1F2 /* MPFormTableViewCell.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E09AA1FA087C5BCFDABAE2F9989BE4FF /* MPFormTableViewCell.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DB58B0E0F6A49D3AB31FEF25C8EBA04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F5263501BC7F9CB62582D82887FDF0F;
-			remoteInfo = "MPFormTableViewCell-MPFormTableViewCellBundle";
-		};
 		A4A7B93AA318F780C397BC55959B87AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84E10848C2D3CAE370A72A2B9F6BF01C;
+			remoteGlobalIDString = 0B834E03240071AE7BE43DDB3792BD57;
 			remoteInfo = MPFormTableViewCell;
+		};
+		A9BACE839522D1C7DC8AD5906ABEEF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A8AA66B029082ACF3312B3FC8F3182;
+			remoteInfo = "MPFormTableViewCell-MPFormTableViewCell";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C4F80AD31CFBB0C026C81D8863CDBE /* MPFormTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MPFormTableViewCell.modulemap; sourceTree = "<group>"; };
+		02EB4513E8C01D764FD5344CF30E3C6E /* MPFormTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormTableViewCell.h; sourceTree = "<group>"; };
+		03C7ABE55150E04820B3B5358B5343AF /* MPFormPickerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormPickerTableViewCell.h; sourceTree = "<group>"; };
 		0816E06EAFA056097204F8039589D07F /* Pods-MPFormTableViewCell_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPFormTableViewCell_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1796B404349A30460D345B84A03CE631 /* MPFormSegmentedTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormSegmentedTableViewCell.m; sourceTree = "<group>"; };
+		189046BB6F4C5CA30925C2F71D7F7F4F /* MPFormSwitchTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormSwitchTableViewCell.m; sourceTree = "<group>"; };
 		1CD5091E8713350629124D11A3B0044A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D11FAE888301860A026E99C95421DB /* Pods-MPFormTableViewCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPFormTableViewCell_Example-umbrella.h"; sourceTree = "<group>"; };
-		2D8CF58F9B74064E51F1F795558558AE /* MPFormSegmentedTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormSegmentedTableViewCell.xib; sourceTree = "<group>"; };
-		366047899876395C76DDDC53178210A6 /* MPFormTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormTableViewCell.h; sourceTree = "<group>"; };
+		27198EA3A1A756DFB2A59CF7523289BD /* MPFormTextViewTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormTextViewTableViewCell.h; sourceTree = "<group>"; };
+		29ADBC624F0FC9F9D16FFE70411D87C3 /* MPFormSegmentedTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormSegmentedTableViewCell.h; sourceTree = "<group>"; };
+		2AF043B4C17D6D04000467EF56DCA7DD /* MPFormSwitchTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormSwitchTableViewCell.h; sourceTree = "<group>"; };
+		2F4CC1DFE2060942EE3F99283EA85832 /* MPFormTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPFormTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		2FF7FB869B33E21086C6603B9E2D3109 /* Pods_MPFormTableViewCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFormTableViewCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3002E1874B62311C516370A70D48377F /* MPFormSegmentedTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormSegmentedTableViewCell.xib; sourceTree = "<group>"; };
+		3191852709F8205DB670FD52E9CC31B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E47A8EC5FD7C5F9FBAE9BAA53CC48B /* Pods-MPFormTableViewCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPFormTableViewCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3ECD49B043886447F27B99B361294CB3 /* MPFormTextFieldTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormTextFieldTableViewCell.xib; sourceTree = "<group>"; };
-		3ED5D741A205DCB1453C17CC377A17F5 /* MPFormRadioTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormRadioTableViewCell.m; sourceTree = "<group>"; };
+		3CB1E5F4222103637CB55F20114D6E9A /* MPFormRadioTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormRadioTableViewCell.h; sourceTree = "<group>"; };
 		3F1CEFDC412EB265739AB37D4D151EA7 /* Pods-MPFormTableViewCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPFormTableViewCell_Example-dummy.m"; sourceTree = "<group>"; };
-		3FF1454E3028051CE484EEB13E4C734A /* MPFormTextViewTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormTextViewTableViewCell.xib; sourceTree = "<group>"; };
-		41EE7706A7746F7224AE6FBE61FFDCC4 /* MPFormTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPFormTableViewCell-dummy.m"; sourceTree = "<group>"; };
-		44C1E8AD9FCDF7C68B3DC35325EF2A6A /* MPFormTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPFormTableViewCell.xcconfig; sourceTree = "<group>"; };
-		50DEBC0F213C8F8DD976928DCF910B62 /* MPFormTableViewCellBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPFormTableViewCellBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FA8F9D42DDF6BB4F63336880B6288B2 /* MPFormPickerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormPickerTableViewCell.h; sourceTree = "<group>"; };
+		47C58F01EE62B527930A0548A3520F24 /* MPFormAbstractTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormAbstractTableViewCell.m; sourceTree = "<group>"; };
+		579389C495B01A3340DC149020E1A0BD /* MPFormPickerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormPickerTableViewCell.m; sourceTree = "<group>"; };
+		58A57F39361F1EF31AEDC3E3CD677B6C /* MPFormPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormPickerTableViewCell.xib; sourceTree = "<group>"; };
+		5A11605CF87A3870CBB591981E239536 /* MPFormTextViewTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormTextViewTableViewCell.m; sourceTree = "<group>"; };
 		695606BDDF00E204C531F5E4603EAD9F /* Pods-MPFormTableViewCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPFormTableViewCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6A8DBB98BB2932E39AB6A614FFAA7B11 /* Pods_MPFormTableViewCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFormTableViewCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBFA92658323F2D234142BC9AF49B7A /* MPFormDateFieldTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormDateFieldTableViewCell.h; sourceTree = "<group>"; };
 		6D878D55943837CA48A1DF730C49AA3C /* Pods-MPFormTableViewCell_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPFormTableViewCell_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7C1E68E41043E0EDD0A0717623A3078C /* MPFormTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPFormTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EF7C960BB2347A971AE34390B075CAC /* MPFormAbstractTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormAbstractTableViewCell.m; sourceTree = "<group>"; };
+		746645A38BA0BF8FDDED2BA4D6DEB6D8 /* MPFormSegmentedTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormSegmentedTableViewCell.m; sourceTree = "<group>"; };
+		75473C75BD304378634E554CF9BBE536 /* MPFormDateFieldTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormDateFieldTableViewCell.m; sourceTree = "<group>"; };
+		7A28065666D2BA9D1E3E5A3C4F79ED62 /* MPFormRadioTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormRadioTableViewCell.xib; sourceTree = "<group>"; };
+		7FF069568C258F892D1EEAF6214E3EA7 /* MPFormTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPFormTableViewCell.xcconfig; sourceTree = "<group>"; };
 		82678D0ECD9555856172E3BABC5EAC05 /* Pods-MPFormTableViewCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPFormTableViewCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		88CEBA5B0A226D8F398BB1252FB41A78 /* MPFormTextFieldTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormTextFieldTableViewCell.h; sourceTree = "<group>"; };
-		8FA07E3B7111505ACF6255A1DBF208E6 /* MPFormRadioTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormRadioTableViewCell.h; sourceTree = "<group>"; };
+		862D5E5E52C96726E663C207326744F7 /* MPFormRadioTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormRadioTableViewCell.m; sourceTree = "<group>"; };
+		870E1CF41F51D04109255EA329205D1F /* MPFormTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPFormTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		8ADF17F82B534C763D8144737CD15FDD /* MPFormTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPFormTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE9375A71B767374A66C19147F85D5A /* MPFormTextFieldTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		8F5F121EC220E46F5443671EE7471CDB /* MPFormTextFieldTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormTextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		8FAA18B8F10210611B7FE0D217B63041 /* Pods-MPFormTableViewCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPFormTableViewCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3136790A2317031AD562F4A5A7A9F73 /* MPFormSwitchTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormSwitchTableViewCell.xib; sourceTree = "<group>"; };
-		A3156C50114A1348279BD96D4D15C8A4 /* MPFormDateFieldTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormDateFieldTableViewCell.m; sourceTree = "<group>"; };
-		A3CBDB4FC74A765ED80514062BAFE44C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A78C9A5832B5B0B218D55749F64B0014 /* MPFormTextViewTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormTextViewTableViewCell.m; sourceTree = "<group>"; };
-		A969D4710AAA41B779B972C2A8F5028B /* MPFormRadioTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormRadioTableViewCell.xib; sourceTree = "<group>"; };
-		AB00FCF60367B3FB49E941BED38323EF /* MPFormTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPFormTableViewCell-umbrella.h"; sourceTree = "<group>"; };
-		AF3B501D8AAF6CADF581CB329F51C270 /* MPFormDateFieldTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormDateFieldTableViewCell.xib; sourceTree = "<group>"; };
-		AFC687BC122B136B18DCA8753C250EEC /* MPFormPickerTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormPickerTableViewCell.xib; sourceTree = "<group>"; };
-		B084359DD0A6AE6253D72623F2992AB8 /* MPFormAbstractTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormAbstractTableViewCell.h; sourceTree = "<group>"; };
+		95E7C57E55F7BE5090C6230009A74669 /* MPFormSwitchTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		96A109039B656F4D1056BC1314F32863 /* MPFormDateFieldTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormDateFieldTableViewCell.xib; sourceTree = "<group>"; };
+		A15D2DE5C24B598EA21B7EF7D2DFB495 /* MPFormTextFieldTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		AAB531D9D9717E079C7A9963BB1B8993 /* MPFormTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MPFormTableViewCell.modulemap; sourceTree = "<group>"; };
+		AADA9E348EE9F8CE2315C6D1E616F9E4 /* MPFormAbstractTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormAbstractTableViewCell.h; sourceTree = "<group>"; };
+		AE284B9AD146E0E63E078B2A0E6FB054 /* ResourceBundle-MPFormTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MPFormTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		B0BB5D882456EA8DB62E230C92053EB8 /* MPFormTextViewTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MPFormTextViewTableViewCell.xib; sourceTree = "<group>"; };
 		B1E1E6BA0CB3AE0E4F2A21A551D72823 /* Pods-MPFormTableViewCell_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPFormTableViewCell_Tests.modulemap"; sourceTree = "<group>"; };
 		B1F6975DC9F515782E6FCD49E1087CF1 /* Pods-MPFormTableViewCell_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPFormTableViewCell_Example-resources.sh"; sourceTree = "<group>"; };
 		B6DE4BC7298E756BA4C46E1BDE0B5C7B /* Pods-MPFormTableViewCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPFormTableViewCell_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B74179D82EC260AD29E1E7D5988FA5EB /* Pods_MPFormTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFormTableViewCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA69D732BEB2D9083D3AC8E478DD035D /* MPFormSegmentedTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormSegmentedTableViewCell.h; sourceTree = "<group>"; };
+		BBD3F2E8414B21B0ED300978A905524C /* Pods_MPFormTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFormTableViewCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6D87C8293D005EC39C0592669CB5E7 /* Pods-MPFormTableViewCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPFormTableViewCell_Example.modulemap"; sourceTree = "<group>"; };
-		CBC1FDF5B4BAE66F3A99199A35D28B84 /* MPFormDateFieldTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormDateFieldTableViewCell.h; sourceTree = "<group>"; };
+		BE6CD9C8709BBAC678C93392D43CE8C9 /* MPFormTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPFormTableViewCell-prefix.pch"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0691ED158CA819B61B467CCBBCB7325 /* ResourceBundle-MPFormTableViewCellBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MPFormTableViewCellBundle-Info.plist"; sourceTree = "<group>"; };
 		D410E4E39BF6C897ED4D8217E9118C90 /* Pods-MPFormTableViewCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPFormTableViewCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D66C2F7EB897CCD7064852E1A20E87A6 /* MPFormSwitchTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormSwitchTableViewCell.m; sourceTree = "<group>"; };
 		DA866FEB12956CB1F77A74B4A3235BB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFD496AB21B1014F15D9996A641AFF4 /* Pods-MPFormTableViewCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPFormTableViewCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB5BF06BFFCB4C83522C0BC4FA98F8B2 /* Pods-MPFormTableViewCell_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPFormTableViewCell_Tests-resources.sh"; sourceTree = "<group>"; };
-		E047E6CE9522DA3DE3F779FB294B1337 /* MPFormTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPFormTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		E09AA1FA087C5BCFDABAE2F9989BE4FF /* MPFormTableViewCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPFormTableViewCell.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54BC5BEB4D0944F97D2583AD09AD188 /* Pods-MPFormTableViewCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPFormTableViewCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6240B60CCD5A5200451B8C78F747DE0 /* MPFormSwitchTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormSwitchTableViewCell.h; sourceTree = "<group>"; };
-		E7AD299E4180140857A60048B5C5ACAB /* MPFormPickerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormPickerTableViewCell.m; sourceTree = "<group>"; };
-		E952DB26549243EB55081DD2A573FC85 /* MPFormTextFieldTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPFormTextFieldTableViewCell.m; sourceTree = "<group>"; };
 		ED3B4A1F96F124BFBCDFB9EA8D41601E /* Pods-MPFormTableViewCell_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPFormTableViewCell_Tests-dummy.m"; sourceTree = "<group>"; };
 		F14E0F262C265AC362697379F5CBF37F /* Pods-MPFormTableViewCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPFormTableViewCell_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE55DA68FC821C5AFF4DF41FE8651407 /* MPFormTextViewTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPFormTextViewTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +129,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		651F28E29AD77D21D34D7CF3D4AC21F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C73AA6399CA0CAB1DFD0214763AEA9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,18 +144,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D6033CE9B0C9EA656D22709091DEB74 /* Frameworks */ = {
+		7FBBAB0697B1ABF9E17C7446C64CFBB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832115C48FD75CFAC8E4601BC3B6597F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9B7FAA36397DC0FA8E02FC99D7AFFEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E9BAF8F066DAC9E9A122A98882120610 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,21 +158,52 @@
 		0E943D841DE242E4D822DEEF1D5953E0 /* MPFormTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				6A8B743C2471BD6F3C0AA4D70161C5BD /* MPFormTableViewCell */,
+				2AB40F13874B60C66F4A9C8276BBC778 /* MPFormTableViewCell */,
 				53900EE0BE03F07D3C6AE1A64073BE1E /* Resources */,
-				FF8E4A4C55962C55A9EF83CE26CFAF3B /* Support Files */,
+				3C24BE85F047C841DE8F5602CE6E9C4F /* Support Files */,
 			);
 			name = MPFormTableViewCell;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3A0F4521AEC21DC2166663C3E25EF873 /* Products */ = {
+		19EF98E229CC617399FB95BAFC2DAADB /* MPFormTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				7C1E68E41043E0EDD0A0717623A3078C /* MPFormTableViewCell.framework */,
-				50DEBC0F213C8F8DD976928DCF910B62 /* MPFormTableViewCellBundle.bundle */,
-				B74179D82EC260AD29E1E7D5988FA5EB /* Pods_MPFormTableViewCell_Example.framework */,
-				6A8DBB98BB2932E39AB6A614FFAA7B11 /* Pods_MPFormTableViewCell_Tests.framework */,
+				B65E1BD583C6E936FCF79BBFBD112449 /* Assets */,
+			);
+			path = MPFormTableViewCell;
+			sourceTree = "<group>";
+		};
+		2AB40F13874B60C66F4A9C8276BBC778 /* MPFormTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7A38A7668E90314A03CB5239912666A6 /* Classes */,
+			);
+			path = MPFormTableViewCell;
+			sourceTree = "<group>";
+		};
+		3C24BE85F047C841DE8F5602CE6E9C4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3191852709F8205DB670FD52E9CC31B2 /* Info.plist */,
+				AAB531D9D9717E079C7A9963BB1B8993 /* MPFormTableViewCell.modulemap */,
+				7FF069568C258F892D1EEAF6214E3EA7 /* MPFormTableViewCell.xcconfig */,
+				2F4CC1DFE2060942EE3F99283EA85832 /* MPFormTableViewCell-dummy.m */,
+				BE6CD9C8709BBAC678C93392D43CE8C9 /* MPFormTableViewCell-prefix.pch */,
+				870E1CF41F51D04109255EA329205D1F /* MPFormTableViewCell-umbrella.h */,
+				AE284B9AD146E0E63E078B2A0E6FB054 /* ResourceBundle-MPFormTableViewCell-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPFormTableViewCell";
+			sourceTree = "<group>";
+		};
+		3D27C5FA3140017FBC2F3562F802F1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E09AA1FA087C5BCFDABAE2F9989BE4FF /* MPFormTableViewCell.bundle */,
+				8ADF17F82B534C763D8144737CD15FDD /* MPFormTableViewCell.framework */,
+				BBD3F2E8414B21B0ED300978A905524C /* Pods_MPFormTableViewCell_Example.framework */,
+				2FF7FB869B33E21086C6603B9E2D3109 /* Pods_MPFormTableViewCell_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,25 +219,33 @@
 		53900EE0BE03F07D3C6AE1A64073BE1E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5E04A0E5B8D9A2EC98FD86B8A52DC3FD /* MPFormTableViewCell */,
+				19EF98E229CC617399FB95BAFC2DAADB /* MPFormTableViewCell */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5E04A0E5B8D9A2EC98FD86B8A52DC3FD /* MPFormTableViewCell */ = {
+		7A38A7668E90314A03CB5239912666A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7CDB250E29D191EB1A5CF3F864642323 /* Classes */,
+				AADA9E348EE9F8CE2315C6D1E616F9E4 /* MPFormAbstractTableViewCell.h */,
+				47C58F01EE62B527930A0548A3520F24 /* MPFormAbstractTableViewCell.m */,
+				6BBFA92658323F2D234142BC9AF49B7A /* MPFormDateFieldTableViewCell.h */,
+				75473C75BD304378634E554CF9BBE536 /* MPFormDateFieldTableViewCell.m */,
+				03C7ABE55150E04820B3B5358B5343AF /* MPFormPickerTableViewCell.h */,
+				579389C495B01A3340DC149020E1A0BD /* MPFormPickerTableViewCell.m */,
+				3CB1E5F4222103637CB55F20114D6E9A /* MPFormRadioTableViewCell.h */,
+				862D5E5E52C96726E663C207326744F7 /* MPFormRadioTableViewCell.m */,
+				29ADBC624F0FC9F9D16FFE70411D87C3 /* MPFormSegmentedTableViewCell.h */,
+				746645A38BA0BF8FDDED2BA4D6DEB6D8 /* MPFormSegmentedTableViewCell.m */,
+				2AF043B4C17D6D04000467EF56DCA7DD /* MPFormSwitchTableViewCell.h */,
+				189046BB6F4C5CA30925C2F71D7F7F4F /* MPFormSwitchTableViewCell.m */,
+				02EB4513E8C01D764FD5344CF30E3C6E /* MPFormTableViewCell.h */,
+				8EE9375A71B767374A66C19147F85D5A /* MPFormTextFieldTableViewCell.h */,
+				A15D2DE5C24B598EA21B7EF7D2DFB495 /* MPFormTextFieldTableViewCell.m */,
+				27198EA3A1A756DFB2A59CF7523289BD /* MPFormTextViewTableViewCell.h */,
+				5A11605CF87A3870CBB591981E239536 /* MPFormTextViewTableViewCell.m */,
 			);
-			path = MPFormTableViewCell;
-			sourceTree = "<group>";
-		};
-		6A8B743C2471BD6F3C0AA4D70161C5BD /* MPFormTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				D36EF811F4D1A05D607DB32621F25751 /* Classes */,
-			);
-			path = MPFormTableViewCell;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7A7BC18D0E4E13268985CE18C13607C7 /* Pods-MPFormTableViewCell_Example */ = {
@@ -234,20 +266,13 @@
 			path = "Target Support Files/Pods-MPFormTableViewCell_Example";
 			sourceTree = "<group>";
 		};
-		7CDB250E29D191EB1A5CF3F864642323 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9E9E65F3D75016C8997F42A95F3C9598 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3A0F4521AEC21DC2166663C3E25EF873 /* Products */,
+				3D27C5FA3140017FBC2F3562F802F1C1 /* Products */,
 				FA6ED7AC12A57A6D8BA61C9C15D50347 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -260,43 +285,26 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		B65E1BD583C6E936FCF79BBFBD112449 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96A109039B656F4D1056BC1314F32863 /* MPFormDateFieldTableViewCell.xib */,
+				58A57F39361F1EF31AEDC3E3CD677B6C /* MPFormPickerTableViewCell.xib */,
+				7A28065666D2BA9D1E3E5A3C4F79ED62 /* MPFormRadioTableViewCell.xib */,
+				3002E1874B62311C516370A70D48377F /* MPFormSegmentedTableViewCell.xib */,
+				95E7C57E55F7BE5090C6230009A74669 /* MPFormSwitchTableViewCell.xib */,
+				8F5F121EC220E46F5443671EE7471CDB /* MPFormTextFieldTableViewCell.xib */,
+				B0BB5D882456EA8DB62E230C92053EB8 /* MPFormTextViewTableViewCell.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D36EF811F4D1A05D607DB32621F25751 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B084359DD0A6AE6253D72623F2992AB8 /* MPFormAbstractTableViewCell.h */,
-				7EF7C960BB2347A971AE34390B075CAC /* MPFormAbstractTableViewCell.m */,
-				CBC1FDF5B4BAE66F3A99199A35D28B84 /* MPFormDateFieldTableViewCell.h */,
-				A3156C50114A1348279BD96D4D15C8A4 /* MPFormDateFieldTableViewCell.m */,
-				AF3B501D8AAF6CADF581CB329F51C270 /* MPFormDateFieldTableViewCell.xib */,
-				5FA8F9D42DDF6BB4F63336880B6288B2 /* MPFormPickerTableViewCell.h */,
-				E7AD299E4180140857A60048B5C5ACAB /* MPFormPickerTableViewCell.m */,
-				AFC687BC122B136B18DCA8753C250EEC /* MPFormPickerTableViewCell.xib */,
-				8FA07E3B7111505ACF6255A1DBF208E6 /* MPFormRadioTableViewCell.h */,
-				3ED5D741A205DCB1453C17CC377A17F5 /* MPFormRadioTableViewCell.m */,
-				A969D4710AAA41B779B972C2A8F5028B /* MPFormRadioTableViewCell.xib */,
-				BA69D732BEB2D9083D3AC8E478DD035D /* MPFormSegmentedTableViewCell.h */,
-				1796B404349A30460D345B84A03CE631 /* MPFormSegmentedTableViewCell.m */,
-				2D8CF58F9B74064E51F1F795558558AE /* MPFormSegmentedTableViewCell.xib */,
-				E6240B60CCD5A5200451B8C78F747DE0 /* MPFormSwitchTableViewCell.h */,
-				D66C2F7EB897CCD7064852E1A20E87A6 /* MPFormSwitchTableViewCell.m */,
-				A3136790A2317031AD562F4A5A7A9F73 /* MPFormSwitchTableViewCell.xib */,
-				366047899876395C76DDDC53178210A6 /* MPFormTableViewCell.h */,
-				88CEBA5B0A226D8F398BB1252FB41A78 /* MPFormTextFieldTableViewCell.h */,
-				E952DB26549243EB55081DD2A573FC85 /* MPFormTextFieldTableViewCell.m */,
-				3ECD49B043886447F27B99B361294CB3 /* MPFormTextFieldTableViewCell.xib */,
-				FE55DA68FC821C5AFF4DF41FE8651407 /* MPFormTextViewTableViewCell.h */,
-				A78C9A5832B5B0B218D55749F64B0014 /* MPFormTextViewTableViewCell.m */,
-				3FF1454E3028051CE484EEB13E4C734A /* MPFormTextViewTableViewCell.xib */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		DF50CDC70FB3CB392902CC2343AC063C /* Pods-MPFormTableViewCell_Tests */ = {
@@ -326,21 +334,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FF8E4A4C55962C55A9EF83CE26CFAF3B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3CBDB4FC74A765ED80514062BAFE44C /* Info.plist */,
-				01C4F80AD31CFBB0C026C81D8863CDBE /* MPFormTableViewCell.modulemap */,
-				44C1E8AD9FCDF7C68B3DC35325EF2A6A /* MPFormTableViewCell.xcconfig */,
-				41EE7706A7746F7224AE6FBE61FFDCC4 /* MPFormTableViewCell-dummy.m */,
-				E047E6CE9522DA3DE3F779FB294B1337 /* MPFormTableViewCell-prefix.pch */,
-				AB00FCF60367B3FB49E941BED38323EF /* MPFormTableViewCell-umbrella.h */,
-				D0691ED158CA819B61B467CCBBCB7325 /* ResourceBundle-MPFormTableViewCellBundle-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MPFormTableViewCell";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -352,23 +345,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587F612283D2366E5B639B9FB970122E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61B0AE290FF06999434D5261EB56FCAD /* MPFormAbstractTableViewCell.h in Headers */,
-				558654D42279FAA1A58BA0B4468AA830 /* MPFormDateFieldTableViewCell.h in Headers */,
-				9DAF5BF9A5A7F72D7D4FAE3FD651DADA /* MPFormPickerTableViewCell.h in Headers */,
-				32DFCD7B33C5447E589683B2CDD81F7E /* MPFormRadioTableViewCell.h in Headers */,
-				F319D4D0DF07225EC6AE0BBC6DF8C7FF /* MPFormSegmentedTableViewCell.h in Headers */,
-				B6E1A9E81786F389B2B1EFAABE5523D5 /* MPFormSwitchTableViewCell.h in Headers */,
-				DEE671AB16A8BF52FBEACE9650B9AD3C /* MPFormTableViewCell-umbrella.h in Headers */,
-				EFF5B595FF50D034BE0786EFDB49722D /* MPFormTableViewCell.h in Headers */,
-				C24AD7B1AA3AF876B02AC3CBEAF35ECE /* MPFormTextFieldTableViewCell.h in Headers */,
-				4E91CCCC436FD9294C8C4974B2729E92 /* MPFormTextViewTableViewCell.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9AF9C9C0475575DBE1CDE2ABDEBF2F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,9 +353,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDD8E6EC2943A1D8C9B0E3D14D8F269D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380929B525A59E5FEC98E55473A5690A /* MPFormAbstractTableViewCell.h in Headers */,
+				B62544D0876ABC4E6416E3CCD967CCAE /* MPFormDateFieldTableViewCell.h in Headers */,
+				6CAAC9375E0B35A88DBF086B7954FE1E /* MPFormPickerTableViewCell.h in Headers */,
+				C6DD150F295A5653E2E9FB9803F7CED6 /* MPFormRadioTableViewCell.h in Headers */,
+				E621453122DECB3FCCFA4D52E6C3B11B /* MPFormSegmentedTableViewCell.h in Headers */,
+				65B0CB6DB2AD41D14123FE1CED44FAB5 /* MPFormSwitchTableViewCell.h in Headers */,
+				6E181051F1C216B61E9593B20D5A4EAC /* MPFormTableViewCell-umbrella.h in Headers */,
+				CE0710511BE41646DC4BAF7A753E12C1 /* MPFormTableViewCell.h in Headers */,
+				D9E34FCE21A7B320844ED2F49E3980D6 /* MPFormTextFieldTableViewCell.h in Headers */,
+				CD5DB8CFE3543DC84834B65BD35F83D6 /* MPFormTextViewTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B834E03240071AE7BE43DDB3792BD57 /* MPFormTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D579A201EE4A5A417F6A59D514276 /* Build configuration list for PBXNativeTarget "MPFormTableViewCell" */;
+			buildPhases = (
+				CC028CF03EFA62FFF5B8FAE6C7412335 /* Sources */,
+				7FBBAB0697B1ABF9E17C7446C64CFBB9 /* Frameworks */,
+				4DA835C92CB22BE951FAC724ED67B1B7 /* Resources */,
+				BDD8E6EC2943A1D8C9B0E3D14D8F269D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43BBEECA79D35CB926B7D964DF0212A0 /* PBXTargetDependency */,
+			);
+			name = MPFormTableViewCell;
+			productName = MPFormTableViewCell;
+			productReference = 8ADF17F82B534C763D8144737CD15FDD /* MPFormTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21A8AA66B029082ACF3312B3FC8F3182 /* MPFormTableViewCell-MPFormTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E91C2B333F89B0F4FDC1641A12C95A /* Build configuration list for PBXNativeTarget "MPFormTableViewCell-MPFormTableViewCell" */;
+			buildPhases = (
+				FAE6BD5BA658115708C5854C8DE29552 /* Sources */,
+				651F28E29AD77D21D34D7CF3D4AC21F5 /* Frameworks */,
+				26DF1E0C1C8138F701242528211DA089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPFormTableViewCell-MPFormTableViewCell";
+			productName = "MPFormTableViewCell-MPFormTableViewCell";
+			productReference = E09AA1FA087C5BCFDABAE2F9989BE4FF /* MPFormTableViewCell.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		6345BCC92CC958308B42A586BA61CE59 /* Pods-MPFormTableViewCell_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248B82E3204F0C3A9986F0A798B5AC7C /* Build configuration list for PBXNativeTarget "Pods-MPFormTableViewCell_Example" */;
@@ -395,25 +424,8 @@
 			);
 			name = "Pods-MPFormTableViewCell_Example";
 			productName = "Pods-MPFormTableViewCell_Example";
-			productReference = B74179D82EC260AD29E1E7D5988FA5EB /* Pods_MPFormTableViewCell_Example.framework */;
+			productReference = BBD3F2E8414B21B0ED300978A905524C /* Pods_MPFormTableViewCell_Example.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		6F5263501BC7F9CB62582D82887FDF0F /* MPFormTableViewCell-MPFormTableViewCellBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8487DB7D741C8B45CB9420DDEC82013 /* Build configuration list for PBXNativeTarget "MPFormTableViewCell-MPFormTableViewCellBundle" */;
-			buildPhases = (
-				5E8AFC72F8874BC757EBA0C0E6EF6D6F /* Sources */,
-				D9B7FAA36397DC0FA8E02FC99D7AFFEE /* Frameworks */,
-				DE626B994E040C9E4E6A4EC7E48C2942 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MPFormTableViewCell-MPFormTableViewCellBundle";
-			productName = "MPFormTableViewCell-MPFormTableViewCellBundle";
-			productReference = 50DEBC0F213C8F8DD976928DCF910B62 /* MPFormTableViewCellBundle.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		7C7210AFF5D25000B18F1F6DD9E01CDA /* Pods-MPFormTableViewCell_Tests */ = {
 			isa = PBXNativeTarget;
@@ -429,26 +441,7 @@
 			);
 			name = "Pods-MPFormTableViewCell_Tests";
 			productName = "Pods-MPFormTableViewCell_Tests";
-			productReference = 6A8DBB98BB2932E39AB6A614FFAA7B11 /* Pods_MPFormTableViewCell_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		84E10848C2D3CAE370A72A2B9F6BF01C /* MPFormTableViewCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E73514E749B8577CD24C7F7DCD733D0F /* Build configuration list for PBXNativeTarget "MPFormTableViewCell" */;
-			buildPhases = (
-				D301E06E618F40694D4BB482E4F0D6B7 /* Sources */,
-				8D6033CE9B0C9EA656D22709091DEB74 /* Frameworks */,
-				5A6249CB5C27ADC1465825A11DB83911 /* Resources */,
-				587F612283D2366E5B639B9FB970122E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD69989242D9D925511FFEFCA6A5D0CC /* PBXTargetDependency */,
-			);
-			name = MPFormTableViewCell;
-			productName = MPFormTableViewCell;
-			productReference = 7C1E68E41043E0EDD0A0717623A3078C /* MPFormTableViewCell.framework */;
+			productReference = 2FF7FB869B33E21086C6603B9E2D3109 /* Pods_MPFormTableViewCell_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -468,12 +461,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3A0F4521AEC21DC2166663C3E25EF873 /* Products */;
+			productRefGroup = 3D27C5FA3140017FBC2F3562F802F1C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84E10848C2D3CAE370A72A2B9F6BF01C /* MPFormTableViewCell */,
-				6F5263501BC7F9CB62582D82887FDF0F /* MPFormTableViewCell-MPFormTableViewCellBundle */,
+				0B834E03240071AE7BE43DDB3792BD57 /* MPFormTableViewCell */,
+				21A8AA66B029082ACF3312B3FC8F3182 /* MPFormTableViewCell-MPFormTableViewCell */,
 				6345BCC92CC958308B42A586BA61CE59 /* Pods-MPFormTableViewCell_Example */,
 				7C7210AFF5D25000B18F1F6DD9E01CDA /* Pods-MPFormTableViewCell_Tests */,
 			);
@@ -481,38 +474,31 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A6249CB5C27ADC1465825A11DB83911 /* Resources */ = {
+		26DF1E0C1C8138F701242528211DA089 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B822F224C971EEFDA46F2522DB11D4E9 /* MPFormTableViewCellBundle.bundle in Resources */,
+				0ECF11DA93A62B7E97C5BEFC5E969A7D /* MPFormDateFieldTableViewCell.xib in Resources */,
+				42EC826F26C34DE085E9584F6F9B864A /* MPFormPickerTableViewCell.xib in Resources */,
+				C7C5ADC5D6BFDDBE0B2E56E9BF5E6A99 /* MPFormRadioTableViewCell.xib in Resources */,
+				2C80395973F13488E2F087EE4203CFFC /* MPFormSegmentedTableViewCell.xib in Resources */,
+				8372B6BEFBDFAB758FC29FEE2434AB92 /* MPFormSwitchTableViewCell.xib in Resources */,
+				4D0CC14C4A1D6068A899BF28C86E78DC /* MPFormTextFieldTableViewCell.xib in Resources */,
+				88A0E7E1CA803634031D0130895A056E /* MPFormTextViewTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE626B994E040C9E4E6A4EC7E48C2942 /* Resources */ = {
+		4DA835C92CB22BE951FAC724ED67B1B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065D4F52E81B69A32337C4B0394221AE /* MPFormDateFieldTableViewCell.xib in Resources */,
-				15BA0FE9A9FF53BE2FCD046C9465A6BF /* MPFormPickerTableViewCell.xib in Resources */,
-				AD2A9B2F6BBC3879B6DB9827EB247994 /* MPFormRadioTableViewCell.xib in Resources */,
-				A206B0B6EA9222B85941E0C4CFBBADEF /* MPFormSegmentedTableViewCell.xib in Resources */,
-				D243C9AAEF694842FB2F07F8909EF5B1 /* MPFormSwitchTableViewCell.xib in Resources */,
-				7301B3541CAC34581653339C87F39100 /* MPFormTextFieldTableViewCell.xib in Resources */,
-				DB6A24534408E4B04A904D85C72DAC72 /* MPFormTextViewTableViewCell.xib in Resources */,
+				F98CCF5EE428F12839BDBDE663DCA1F2 /* MPFormTableViewCell.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E8AFC72F8874BC757EBA0C0E6EF6D6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABC812046F431D16220D864956C93821 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,26 +507,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D301E06E618F40694D4BB482E4F0D6B7 /* Sources */ = {
+		CC028CF03EFA62FFF5B8FAE6C7412335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0E9A6E4F04946C8F30BE637CA4A340 /* MPFormAbstractTableViewCell.m in Sources */,
-				116230A7C47E3A719A73662596BC2302 /* MPFormDateFieldTableViewCell.m in Sources */,
-				A06BB9B57431454511C4D97A16C8A1E8 /* MPFormDateFieldTableViewCell.xib in Sources */,
-				804FCCD7705187635DDC90540FD343A2 /* MPFormPickerTableViewCell.m in Sources */,
-				B7C63060B673911F9E652197D69585A7 /* MPFormPickerTableViewCell.xib in Sources */,
-				20E932D94668174A862EBEDA78563211 /* MPFormRadioTableViewCell.m in Sources */,
-				95626BA7C0989997AF5F0E61D4974CE4 /* MPFormRadioTableViewCell.xib in Sources */,
-				19DFA0775283CAA917B4E9D5BD772154 /* MPFormSegmentedTableViewCell.m in Sources */,
-				7BDD1BCB6EDB2FA8663A23A78B880A5F /* MPFormSegmentedTableViewCell.xib in Sources */,
-				97258E266924C1E5C12499008E63EF12 /* MPFormSwitchTableViewCell.m in Sources */,
-				A2BA4473411540321B4FC42C704C62DF /* MPFormSwitchTableViewCell.xib in Sources */,
-				843A3798C9A0DAAA40EDA23EAEE8BD17 /* MPFormTableViewCell-dummy.m in Sources */,
-				5B71DFABE39FF22744B943DCF707875D /* MPFormTextFieldTableViewCell.m in Sources */,
-				6E411BDFFB5C3A5268C7D07A4D76875A /* MPFormTextFieldTableViewCell.xib in Sources */,
-				39B04D5988E8E431BCA6782C67F1D748 /* MPFormTextViewTableViewCell.m in Sources */,
-				27E16A04F8340EE7F0EB0346157627D8 /* MPFormTextViewTableViewCell.xib in Sources */,
+				E4B704D52E46A8299C47323BD4DCF3EB /* MPFormAbstractTableViewCell.m in Sources */,
+				C3A0C78CF0C9FDD9A029F97F635CF6E8 /* MPFormDateFieldTableViewCell.m in Sources */,
+				5A2FB218625868E3ADB1572644265934 /* MPFormPickerTableViewCell.m in Sources */,
+				6AF13CA6931ACC82EFDAE272223CBB53 /* MPFormRadioTableViewCell.m in Sources */,
+				8BAB96853C27E31B5D29F3DD632BBADA /* MPFormSegmentedTableViewCell.m in Sources */,
+				96CC2B19A237C466A97140FEFC913769 /* MPFormSwitchTableViewCell.m in Sources */,
+				3529A12363C6D5CC04E9F55EDFDC59C7 /* MPFormTableViewCell-dummy.m in Sources */,
+				1F1315565B71E08A2CAD79AD868A32A6 /* MPFormTextFieldTableViewCell.m in Sources */,
+				F8FD317A29E50B9EF2B0ECF4BFA34264 /* MPFormTextViewTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,20 +531,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAE6BD5BA658115708C5854C8DE29552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		43BBEECA79D35CB926B7D964DF0212A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MPFormTableViewCell-MPFormTableViewCell";
+			target = 21A8AA66B029082ACF3312B3FC8F3182 /* MPFormTableViewCell-MPFormTableViewCell */;
+			targetProxy = A9BACE839522D1C7DC8AD5906ABEEF0F /* PBXContainerItemProxy */;
+		};
 		EC9C3A435A39D16748263BCF528A736C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MPFormTableViewCell;
-			target = 84E10848C2D3CAE370A72A2B9F6BF01C /* MPFormTableViewCell */;
+			target = 0B834E03240071AE7BE43DDB3792BD57 /* MPFormTableViewCell */;
 			targetProxy = A4A7B93AA318F780C397BC55959B87AA /* PBXContainerItemProxy */;
-		};
-		FD69989242D9D925511FFEFCA6A5D0CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MPFormTableViewCell-MPFormTableViewCellBundle";
-			target = 6F5263501BC7F9CB62582D82887FDF0F /* MPFormTableViewCell-MPFormTableViewCellBundle */;
-			targetProxy = 1DB58B0E0F6A49D3AB31FEF25C8EBA04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -608,26 +594,9 @@
 			};
 			name = Release;
 		};
-		2C30EDA57B634935D28B20579C306AC8 /* Debug */ = {
+		16EA1594FF04F8C173671C517EC6302F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C1E8AD9FCDF7C68B3DC35325EF2A6A /* MPFormTableViewCell.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MPFormTableViewCell";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/MPFormTableViewCell/ResourceBundle-MPFormTableViewCellBundle-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MPFormTableViewCellBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		33F5C682CB208841225B3933FE498292 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C1E8AD9FCDF7C68B3DC35325EF2A6A /* MPFormTableViewCell.xcconfig */;
+			baseConfigurationReference = 7FF069568C258F892D1EEAF6214E3EA7 /* MPFormTableViewCell.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -653,52 +622,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3FE839FF6AF3C19375BD29C94D3A615B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C1E8AD9FCDF7C68B3DC35325EF2A6A /* MPFormTableViewCell.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MPFormTableViewCell";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/MPFormTableViewCell/ResourceBundle-MPFormTableViewCellBundle-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MPFormTableViewCellBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6CD04D62EA134A9FDB1716166B024FF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C1E8AD9FCDF7C68B3DC35325EF2A6A /* MPFormTableViewCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MPFormTableViewCell/MPFormTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MPFormTableViewCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MPFormTableViewCell/MPFormTableViewCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MPFormTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		6E3F3CA84A2847C86316E24A335AB407 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -733,6 +656,23 @@
 			};
 			name = Release;
 		};
+		7ADA1B63F651C8088C1B0123AE5C46A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF069568C258F892D1EEAF6214E3EA7 /* MPFormTableViewCell.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MPFormTableViewCell";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MPFormTableViewCell/ResourceBundle-MPFormTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MPFormTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7CFB7185C8BCBECC82606A595D8B721C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAFD496AB21B1014F15D9996A641AFF4 /* Pods-MPFormTableViewCell_Example.debug.xcconfig */;
@@ -765,6 +705,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		822C7036636D98DB5667F09EF5E7086A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF069568C258F892D1EEAF6214E3EA7 /* MPFormTableViewCell.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MPFormTableViewCell";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MPFormTableViewCell/ResourceBundle-MPFormTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MPFormTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		A3CC43EA2FD532BD7813B20A858DC447 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -874,6 +831,35 @@
 			};
 			name = Debug;
 		};
+		FD09AE7FC36A2F188EE8131A8C6EF22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF069568C258F892D1EEAF6214E3EA7 /* MPFormTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPFormTableViewCell/MPFormTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPFormTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MPFormTableViewCell/MPFormTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MPFormTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -904,20 +890,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E73514E749B8577CD24C7F7DCD733D0F /* Build configuration list for PBXNativeTarget "MPFormTableViewCell" */ = {
+		C99D579A201EE4A5A417F6A59D514276 /* Build configuration list for PBXNativeTarget "MPFormTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33F5C682CB208841225B3933FE498292 /* Debug */,
-				6CD04D62EA134A9FDB1716166B024FF3 /* Release */,
+				16EA1594FF04F8C173671C517EC6302F /* Debug */,
+				FD09AE7FC36A2F188EE8131A8C6EF22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8487DB7D741C8B45CB9420DDEC82013 /* Build configuration list for PBXNativeTarget "MPFormTableViewCell-MPFormTableViewCellBundle" */ = {
+		F6E91C2B333F89B0F4FDC1641A12C95A /* Build configuration list for PBXNativeTarget "MPFormTableViewCell-MPFormTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C30EDA57B634935D28B20579C306AC8 /* Debug */,
-				3FE839FF6AF3C19375BD29C94D3A615B /* Release */,
+				7ADA1B63F651C8088C1B0123AE5C46A3 /* Debug */,
+				822C7036636D98DB5667F09EF5E7086A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
