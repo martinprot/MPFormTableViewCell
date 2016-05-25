@@ -11,13 +11,6 @@
 @interface MPFormSwitchTableViewCell : MPFormAbstractTableViewCell
 
 /**
- *  Sets the label.
- *
- *  @param label the label....
- */
-- (void)setLabel:(NSString *)label;
-
-/**
  *  Sets the switch state
  *
  *  @param on YES if state should be set

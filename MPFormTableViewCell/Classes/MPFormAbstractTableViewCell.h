@@ -26,6 +26,8 @@
 @property (nonatomic, weak) id<MPFormTableViewCellDelegate> delegate;
 @property (nonatomic, strong) NSIndexPath *indexPath;
 
+@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
+
 - (BOOL)resignFirstResponder;
 
 - (BOOL)becomeFirstResponder;

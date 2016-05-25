@@ -34,11 +34,10 @@ static NSString *const kFieldId = @"kFieldId";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-	NSBundle *bundle = [NSBundle bundleForClass:MPFormAbstractTableViewCell.class];
-	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormSegmentedTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormSegmentedTableViewCell];
-	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormDateFieldTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormDateFieldTableViewCell];
-	[self.tableView registerNib:[UINib nibWithNibName:@"MPFormPickerTableViewCell" bundle:bundle] forCellReuseIdentifier:kMPFormPickerTableViewCell];
+
+	[self.tableView registerNib:[UINib nibWithNibName:@"MPExampleFormSegmentedTableViewCell" bundle:nil] forCellReuseIdentifier:kMPFormSegmentedTableViewCell];
+	[self.tableView registerNib:[UINib nibWithNibName:@"MPExampleFormDateFieldTableViewCell" bundle:nil] forCellReuseIdentifier:kMPFormDateFieldTableViewCell];
+	[self.tableView registerNib:[UINib nibWithNibName:@"MPExampleFormPickerTableViewCell" bundle:nil] forCellReuseIdentifier:kMPFormPickerTableViewCell];
 
 	
 	self.formDataSource = @[// first section

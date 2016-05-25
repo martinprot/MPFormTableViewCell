@@ -25,6 +25,12 @@
 	[_datePicker addTarget:self action:@selector(dateChanged:) forControlEvents:UIControlEventValueChanged];
 	self.textField.inputView = _datePicker;
 	self.textField.delegate = self;
+	_datePicker.maximumDate = [NSDate distantFuture];
+	_datePicker.minimumDate = [NSDate distantPast];
+}
+
+- (void)prepareForReuse {
+	self.currentDateTime = nil;
 }
 
 - (void)setCurrentDateTime:(NSDate *)currentDateTime {
@@ -44,7 +50,7 @@
 - (void)setDefaultDateTime:(NSDate *)defaultDateTime {
 	_defaultDateTime = defaultDateTime;
 	if(!_currentDateTime) {
-		_datePicker.date = self.defaultDateTime;
+		self.currentDateTime = self.defaultDateTime;
 	}
 }
 
@@ -52,12 +58,14 @@
 	_datePickerMode = datePickerMode;
 	
 	_datePicker.datePickerMode = datePickerMode;
-	if (datePickerMode == UIDatePickerModeDate || datePickerMode == UIDatePickerModeDateAndTime) {
-		_datePicker.maximumDate = [NSDate date];
-	}
-	else {
-		_datePicker.maximumDate = [NSDate distantFuture];
-	}
+}
+
+- (void)setMinimumDate:(NSDate *)minimumDate {
+	_datePicker.minimumDate = minimumDate;
+}
+
+- (void)setMaximumDate:(NSDate *)maximumDate {
+	_datePicker.maximumDate = maximumDate;
 }
 
 /**
@@ -73,7 +81,7 @@
 	else if (self.datePickerMode == UIDatePickerModeTime)
 		[dateFormatter setDateFormat:@"hh:mm"];
 	else if (self.datePickerMode == UIDatePickerModeDateAndTime)
-		[dateFormatter setDateFormat:@"dd MMMM yyyy hh:mm"];
+		[dateFormatter setDateFormat:@"dd MMMM yyyy HH:mm"];
 
 	return [dateFormatter stringFromDate:self.currentDateTime];
 }
