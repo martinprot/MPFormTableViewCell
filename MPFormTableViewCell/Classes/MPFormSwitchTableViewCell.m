@@ -10,7 +10,6 @@
 
 @interface MPFormSwitchTableViewCell ()
 
-@property (nonatomic, weak) IBOutlet UILabel *formLabel;
 @property (nonatomic, weak) IBOutlet UISwitch *formSwitch;
 
 @end
@@ -30,15 +29,6 @@
 #pragma mark GETTERS
 #pragma mark -
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-/**
- *  Sets the label.
- *
- *  @param label the label....
- */
-- (void)setLabel:(NSString *)label {
-	self.formLabel.text = label;
-}
 
 /**
  *  Sets the switch state

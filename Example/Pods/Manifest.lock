@@ -1,5 +1,5 @@
 PODS:
-  - MPFormTableViewCell (0.1.1)
+  - MPFormTableViewCell (0.1.2)
 
 DEPENDENCIES:
   - MPFormTableViewCell (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MPFormTableViewCell: f5ef52a1b98ab1b0b09168848cce5547b422a071
+  MPFormTableViewCell: cfcff24af627c64ac2664e2f84c97865c580ea28
 
 PODFILE CHECKSUM: 93465d8e762235c7255f0c56951a3572fd7de77a
 

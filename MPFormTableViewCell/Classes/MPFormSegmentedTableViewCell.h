@@ -15,4 +15,9 @@
  */
 @property (nonatomic, strong) NSArray <NSString*>*segmentsArray;
 
+/**
+ *  The selected index, or negative value if nothing selected
+ */
+@property (nonatomic) NSInteger selectedIndex;
+
 @end

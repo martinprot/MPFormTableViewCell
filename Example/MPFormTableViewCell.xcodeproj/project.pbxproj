@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1982E479748EF051ED819D3E /* Pods_MPFormTableViewCell_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD366FE51D527135DD73C01 /* Pods_MPFormTableViewCell_Tests.framework */; };
+		5B3642511CF5D20F001D004B /* MPExampleFormDateFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B36424E1CF5D20F001D004B /* MPExampleFormDateFieldTableViewCell.xib */; };
+		5B3642521CF5D20F001D004B /* MPExampleFormPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B36424F1CF5D20F001D004B /* MPExampleFormPickerTableViewCell.xib */; };
+		5B3642531CF5D20F001D004B /* MPExampleFormSegmentedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3642501CF5D20F001D004B /* MPExampleFormSegmentedTableViewCell.xib */; };
+		5B3642551CF5D2A1001D004B /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3642541CF5D2A1001D004B /* Launch.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		2DD366FE51D527135DD73C01 /* Pods_MPFormTableViewCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFormTableViewCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B36424E1CF5D20F001D004B /* MPExampleFormDateFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPExampleFormDateFieldTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		5B36424F1CF5D20F001D004B /* MPExampleFormPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPExampleFormPickerTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		5B3642501CF5D20F001D004B /* MPExampleFormSegmentedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPExampleFormSegmentedTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		5B3642541CF5D2A1001D004B /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MPFormTableViewCell_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPFormTableViewCell_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B36424D1CF5D1D8001D004B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B36424E1CF5D20F001D004B /* MPExampleFormDateFieldTableViewCell.xib */,
+				5B36424F1CF5D20F001D004B /* MPExampleFormPickerTableViewCell.xib */,
+				5B3642501CF5D20F001D004B /* MPExampleFormSegmentedTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +153,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MPViewController.h */,
 				6003F5A6195388D20070C39A /* MPViewController.m */,
+				5B36424D1CF5D1D8001D004B /* Cells */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -145,6 +164,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B3642541CF5D2A1001D004B /* Launch.storyboard */,
 				6003F595195388D20070C39A /* MPFormTableViewCell-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -276,8 +296,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3642521CF5D20F001D004B /* MPExampleFormPickerTableViewCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				5B3642511CF5D20F001D004B /* MPExampleFormDateFieldTableViewCell.xib in Resources */,
+				5B3642551CF5D2A1001D004B /* Launch.storyboard in Resources */,
+				5B3642531CF5D20F001D004B /* MPExampleFormSegmentedTableViewCell.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

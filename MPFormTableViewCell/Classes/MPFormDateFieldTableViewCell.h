@@ -12,6 +12,9 @@
 
 @property (nonatomic) UIDatePickerMode datePickerMode;
 
+@property (nonatomic, weak) NSDate *maximumDate;
+@property (nonatomic, weak) NSDate *minimumDate;
+
 /**
  *  The picker default date
  */

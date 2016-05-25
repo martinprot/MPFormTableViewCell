@@ -38,8 +38,8 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="formLabel" destination="kSX-yR-vJw" id="lz8-PD-E4C"/>
                 <outlet property="formSwitch" destination="TYB-2N-j11" id="b5a-kk-4rh"/>
+                <outlet property="titleLabel" destination="kSX-yR-vJw" id="u51-ct-olY"/>
             </connections>
             <point key="canvasLocation" x="361.5" y="645"/>
         </tableViewCell>

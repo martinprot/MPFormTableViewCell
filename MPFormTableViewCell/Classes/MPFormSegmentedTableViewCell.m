@@ -33,6 +33,13 @@
 	}];
 }
 
+- (void)setSelectedIndex:(NSInteger)selectedIndex {
+	_selectedIndex = selectedIndex;
+	if (selectedIndex >= 0) {
+		self.segmentedControl.selectedSegmentIndex = selectedIndex;
+	}
+}
+
 - (IBAction)onSegmentChanged:(UISegmentedControl*)sender {
 	[self.delegate formTableViewCell:self didChangeValue:@(sender.selectedSegmentIndex) atIndexPath:self.indexPath];
 }
